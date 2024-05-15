@@ -1,6 +1,6 @@
 export class Paises {
 
-    id: number;
+  id: number;
   name: string;
   formation_year: number;
   capital: string;

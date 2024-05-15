@@ -1,0 +1,36 @@
+<div class="container-fluid">
+  <p class="h3 p-3">{{ paisesDetail.name }}</p>
+  <div class="row">
+    <div class="col-2">
+      <div class="thumb">
+        <img
+          class="img-fluid"
+          src="{{ paisesDetail.flag }}"
+          alt="{{ paisesDetail.name }}"
+        />
+      </div>
+    </div>
+    <div class="col">
+      <dl>
+        <dt>Descripcion</dt>
+        <dd>{{ paisesDetail.descripcion }}</dd>
+        <hr />
+
+        <dt>Publishing Date</dt>
+        <dd>{{ bookDetail.publishingDate }}</dd>
+
+        <hr />
+
+        <dt class="bold">Editorial</dt>
+        <dd class="caption">{{ bookDetail.editorial.name }}</dd>
+
+        <hr />
+
+        <dt class="bold">Description</dt>
+        <dd>{{ bookDetail.description }}</dd>
+      </dl>
+    </div>
+  </div>
+</div>
+
+
